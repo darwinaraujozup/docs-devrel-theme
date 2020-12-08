@@ -41,3 +41,5 @@ other = "Relatar um problema de documentação"
 other = "Relatar um problema no projeto"
 [post_posts_in]
 other = "Posts em"
+[post_create_child_page]
+other = "Criar página filha"
