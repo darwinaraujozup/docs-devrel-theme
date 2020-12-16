@@ -76,7 +76,7 @@ limitations under the License.
           e.preventDefault();
           var tab = $(this).parent(),
                     tabIndex = tab.index(),
-                    tabPanel = $(this).closest('.code-tabs'),
+                    tabPanel = $(this).closest('.nav-tabs'),
                     tabPane = tabPanel.find('.tab-pane').eq(tabIndex);
           tabPanel.find('.active').removeClass('active');
           tab.addClass('active');
