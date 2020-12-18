@@ -102,3 +102,11 @@ pre {
 .td-sidebar-nav__section-title {
   font-weight: unset;
 }
+
+.section-index h5 a {
+  text-decoration: underline;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
